@@ -21,6 +21,8 @@ CREATE TABLE reserva(
 CREATE TABLE emprestimo(
 	id SERIAL PRIMARY KEY,
 	--FOREIGN KEY (funcionario_Id) REFERENCES funcionario(id),
+    data_emprestimo DATE NOT NULL,
+    data_devolucao DATE NOT NULL,
 );
 
 CREATE TABLE funcionario(
