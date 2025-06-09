@@ -37,6 +37,8 @@ LEFT JOIN funcionario ON devolucao.funcionario_id = funcionario.id
 ORDER BY devolucao.valor_multa;
 
 
+
+-- teste rapido
 select usuario.name, livro.titulo from emprestimo 
 inner join usuario on usuario_id = usuario.id
 inner join livro on livro_id = livro.id
